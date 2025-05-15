@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  diabetes-api:
+    build: .                          # Build from the Dockerfile in this folder
+    container_name: diabetes-api-v1   # (Optional) Friendly name for the container
+    ports:
+      - "8080:8080"                # Map host port 5000 → container port 8080
+    restart: unless-stopped        # Auto-restart on failures
