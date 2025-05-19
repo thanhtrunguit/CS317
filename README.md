@@ -92,8 +92,17 @@ ngrok http 8080 --url https://example.ngrok.app
 
 [Serving API and Docker on remote server](https://youtu.be/pX-mLY8qgQs)
 
-
 [Click me to test api](https://noble-coyote-measured.ngrok-free.app/docs#/default/evaluate_evaluate_post)
+
+## Push image to docker hub
+
+```bash
+docker run -dp 8080:8080 truong1301/diabetes-api-v3
+```
+
+<div align="center">
+    <img src="https://github.com/thanhtrunguit/CS317/blob/main/Screenshot%202025-05-19%20215444.png" alt="alt text" width="700"/>
+</div> 
 
 ## 📬 Contact
 
